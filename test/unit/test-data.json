@@ -1,0 +1,99 @@
+[
+     {
+       "data": {
+         "items": [
+           {
+             "basic": {
+               "bridgeExchangeCode": "GBFT",
+               "currency": "GBP",
+               "exchange": "FTSE International",
+               "exhangeCode": "FSI",
+               "name": "FTSE 100 Index",
+               "symbol": "FTSE:FSI"
+             },
+             "quote": {
+               "change1Day": -33.44999999999982,
+               "change1DayPercent": -0.45867408224046613,
+               "change1Week": -100.06999999999971,
+               "change1WeekPercent": -1.359761284238614,
+               "high": 7335.55,
+               "lastPrice": 7259.31,
+               "low": 7258.83,
+               "openPrice": 7292.76,
+               "previousClosePrice": 7292.76,
+               "timeStamp": "2019-11-15T10:53:16",
+               "volume": 165239344
+             },
+             "symbolInput": "FTSE:FSI"
+           }
+         ]
+       },
+       "timeGenerated": "2019-11-15T11:08:17"
+     },
+     {
+       "data": {
+         "items": [
+           {
+             "basic": {
+               "bridgeExchangeCode": "CUX",
+               "exchange": "SOURCE IS A THOMSON REUTERS CONTRIBUTOR",
+               "exhangeCode": "RCT",
+               "name": "UK Pound Sterling/Hong Kong Dollar FX Cross Rate",
+               "symbol": "GBPHKD"
+             },
+             "quote": {
+               "ask": 10.0829,
+               "bid": 10.081900000000001,
+               "change1Day": 0.00009999999999976694,
+               "change1DayPercent": 0.0009918863694951985,
+               "change1Week": 0.08480000000000132,
+               "change1WeekPercent": 0.848245991337501,
+               "closePrice": 10.081800000000001,
+               "high": 10.0901,
+               "lastPrice": 10.081900000000001,
+               "low": 10.0738,
+               "openPrice": 10.081800000000001,
+               "previousClosePrice": 10.081800000000001,
+               "timeStamp": "2019-11-15T10:30:00",
+               "volume": 0
+             },
+             "symbolInput": "GBPHKD"
+           }
+         ]
+       },
+       "timeGenerated": "2019-11-15T11:07:58"
+     },
+     {
+       "data": {
+         "items": [
+           {
+             "basic": {
+               "bridgeExchangeCode": "CUX",
+               "exchange": "SOURCE IS A THOMSON REUTERS CONTRIBUTOR",
+               "exhangeCode": "RCT",
+               "name": "UK Pound Sterling/US Dollar FX Spot Rate",
+               "symbol": "GBPUSD"
+             },
+             "quote": {
+               "ask": 1.288,
+               "bid": 1.2879,
+               "change1Day": -0.00019999999999997797,
+               "change1DayPercent": -0.015526744817947207,
+               "change1Week": 0.010700000000000154,
+               "change1WeekPercent": 0.8377701221421981,
+               "closePrice": 1.2881,
+               "high": 1.2887,
+               "lastPrice": 1.2879,
+               "low": 1.2868000000000002,
+               "openPrice": 1.2881,
+               "previousClosePrice": 1.2881,
+               "timeStamp": "2019-11-15T10:30:00",
+               "volume": 0
+             },
+             "symbolInput": "GBPUSD"
+           }
+         ]
+       },
+       "timeGenerated": "2019-11-15T11:07:37"
+     }
+]

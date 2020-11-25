@@ -1,0 +1,53 @@
+<!-- index.jade -->
+extends layout
+block content
+  div
+  h1 FT Exchange Rates
+  br
+  table(id="table",class="table table-striped")
+      thead
+        tr
+          th Symbol
+          th Name
+          th Exchange
+          th Exchange Code
+          th Bridge Exchange Code
+          th Currency
+          th Last Price
+          th Open Price
+          th High
+          th Low
+          th Previous Close Price
+          th Change 1Day
+          th Change 1Day Percent
+          th Change 1Week
+          th Change 1Week Percent
+          th Timestamp
+          th Volume
+      tbody
+        each result in response            
+            if result && result.message
+                tr
+                    td(colspan='17')
+                        h3=result.message
+            else  
+                each item in result.data.items
+                    tr
+                        td #{item.symbolInput}
+                        td=item.basic.name
+                        td=item.basic.exchange
+                        td=item.basic.exhangeCode
+                        td=item.basic.bridgeExchangeCode
+                        td=item.basic.currency
+                        td=item.quote.lastPrice
+                        td=item.quote.openPrice
+                        td=item.quote.high
+                        td=item.quote.low
+                        td=item.quote.previousClosePrice
+                        td=item.quote.change1Day
+                        td=item.quote.change1DayPercent
+                        td=item.quote.change1Week
+                        td=item.quote.change1WeekPercent
+                        td=item.quote.timeStamp
+                        td=item.quote.volume
+  
